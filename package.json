@@ -2,6 +2,9 @@
   "name": "singularity",
   "version": "1.0.0",
   "description": "A campaign for Minutes to Midnight - Website built on Fari.games",
+  "homepage": "https://singularity-campaign.netlify.app",
+  "author": "V-Jira",
+  "license": "AGPL-3.0",
   "main": "index.js",
   "engines": {
     "node": "^16.2.0"
@@ -35,14 +38,13 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-helmet-async": "^1.0.9",
+    "react-i18next": "^11.9.0",
     "react-router-dom": "^5.2.0",
     "react-slick": "^0.28.1",
     "remarkable": "^2.0.1",
     "slick-carousel": "^1.8.1",
     "netlify-cli": "^3.31.3"
   },
-  "author": "V-Jira",
-  "license": "AGPL-3.0",
   "devDependencies": {
     "@types/lodash": "^4.14.171",
     "@types/react-dom": "^17.0.9",

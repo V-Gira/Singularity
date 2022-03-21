@@ -19,6 +19,10 @@ import { SettingsContext, useSettings } from "./contexts/SettingsContext";
 import { Navbar } from "./Navbar";
 import { SentryService } from "./services/SentryService";
 import { darkTheme, lightTheme } from "./theme";
+import { getDefaultInjections } from "./services/injections";
+import { InjectionsContext } from "./contexts/InjectionsContext"
+
+const injections = getDefaultInjections();
 
 const ProductPage = React.lazy(() => import("./pages/ProductPage/ProductPage"));
 const SearchPage = React.lazy(() => import("./pages/SearchPage/SearchPage"));
@@ -37,7 +41,11 @@ function AppProviders(props: { children: any }) {
   const settingsManager = useSettings();
   return (
     <SettingsContext.Provider value={settingsManager}>
+      <Suspense fallback={null}>
+      <InjectionsContext.Provider value={injections}>
       {props.children}
+      </InjectionsContext.Provider>
+      </Suspense>
     </SettingsContext.Provider>
   );
 }

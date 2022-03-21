@@ -18,7 +18,7 @@ export function Page(props: {
     : "Singularity - A campaign for Minutes to Midnight";
   const description =
     props.description ||
-    "All the best TTRPG SRDs available right here on Fari Games.";
+    "A campaign for Minutes to Midnight.";
   const image =
     props.image || "https://gyazo.com/b0feeda1f7d9486bd761e27eb468a1f3.png";
   return (
@@ -43,7 +43,7 @@ export function Page(props: {
           },
           {
             property: "og:url",
-            content: `https://fari.games${location.pathname}`,
+            content: `https://singularity-campaign.netlify.app${location.pathname}`,
           },
           {
             name: "twitter:card",

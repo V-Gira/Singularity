@@ -16,6 +16,8 @@ import Container from "@mui/material/Container";
 import Drawer from "@mui/material/Drawer";
 import Grid from "@mui/material/Grid";
 import IconButton from "@mui/material/IconButton";
+import Select from "@mui/material/Select";
+import TranslateIcon from "@mui/icons-material/Translate";
 import Paper from "@mui/material/Paper";
 import Popover from "@mui/material/Popover";
 import { Breakpoint, useTheme } from "@mui/material/styles";
@@ -27,6 +29,11 @@ import { useLocation } from "react-router-dom";
 import { ReactRouterLink } from "./components/ReactRouterLink/ReactRouterLink";
 import { SettingsContext } from "./contexts/SettingsContext";
 import { track } from "./domains/analytics/track";
+import { useTranslate } from "./hooks/useTranslate/useTranslate";
+import {
+  IPossibleLanguages,
+  PossibleLanguagesNames,
+} from "./services/internationalization/InternationalizationService";
 
 export function Navbar() {
   const theme = useTheme();
@@ -34,6 +41,7 @@ export function Navbar() {
   const settingsManager = useContext(SettingsContext);
   const [menuOpen, setMenuOpen] = useState(false);
   const shouldRenderMobileMenu = useMediaQuery(theme.breakpoints.down("md"));
+  const { t, i18n, currentLanguage } = useTranslate();
   const maxWidth: Breakpoint | undefined = location.pathname.includes("/srds")
     ? "xl"
     : undefined;
@@ -118,7 +126,34 @@ export function Navbar() {
               </Grid>
             )}
           </Grid>
-
+          {!shouldRenderMobileMenu && (
+          <Grid item >
+            <Box>
+              <Select
+                fullWidth
+                native
+                value={currentLanguage}
+                onChange={(e) => {
+                  const newLanguage = e.target.value as string;
+                  i18n.changeLanguage(newLanguage);
+                }}
+                variant="standard"
+              >
+                {Object.keys(PossibleLanguagesNames).map((languageKey) => {;
+                    return (
+                      <option key={languageKey} value={languageKey}>
+                        {
+                          PossibleLanguagesNames[
+                            languageKey as IPossibleLanguages
+                          ]
+                        }
+                      </option>
+                    );
+                })}
+              </Select>
+            </Box>
+        </Grid>
+          )}
           {!shouldRenderMobileMenu && (
             <Grid item>
               <Tooltip title="Use Theme from System Preferences">

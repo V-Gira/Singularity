@@ -16,6 +16,7 @@ import { IShopProductWithAuthor } from "../../../../data/shop/types/IShopProduct
 import { AppLinksFactory } from "../../../domains/links/AppLinksFactory";
 import { themeOptions } from "../../../theme";
 import { ProductType } from "./ProductType";
+import { useTranslate } from "../../../hooks/useTranslate/useTranslate";
 
 export function useThemeFromColor(color: string, mode?: any) {
   const whiteVariants = ["#fff", "#ffffff", "#FFF", "#FFFFFF", "white"];
@@ -48,6 +49,7 @@ export function ProductDetails(props: {
   const theme = useTheme();
   const isLgDown = useMediaQuery(theme.breakpoints.down("lg"));
   const isSmall = useMediaQuery(theme.breakpoints.down("md"));
+  const { t } = useTranslate();
 
   if (!props.product) {
     return null;
@@ -162,7 +164,7 @@ export function ProductDetails(props: {
                         textTransform: "none",
                       })}
                     >
-                      Read Now
+                      {t("product-details.cta")}
                     </Button>
                   </Grid>
                 </Grid>
