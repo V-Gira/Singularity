@@ -13,7 +13,7 @@ export type IPossibleLanguages = typeof PossibleLanguages[number];
 
 export const PossibleLanguagesNames: Record<IPossibleLanguages, string> = {
   "en": "English",
-  "fr": "Français",
+  "fr": "Français __",
 };
 
 export async function InternationalizationService() {

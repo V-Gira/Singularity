@@ -17,7 +17,6 @@ import Drawer from "@mui/material/Drawer";
 import Grid from "@mui/material/Grid";
 import IconButton from "@mui/material/IconButton";
 import Select from "@mui/material/Select";
-import TranslateIcon from "@mui/icons-material/Translate";
 import Paper from "@mui/material/Paper";
 import Popover from "@mui/material/Popover";
 import { Breakpoint, useTheme } from "@mui/material/styles";
