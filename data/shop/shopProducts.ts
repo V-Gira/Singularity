@@ -44,6 +44,29 @@ export const shop: IShop = {
       ],
     },
     {
+      name: "John Harper",
+      slug: "bitd",
+      links: {
+        website: "https://bladesinthedark.com/"
+      },
+      products: [
+        {
+          name: "Blades in the Dark SRD",
+          slug: "bitd-srd",
+          type: ProductTypeEnum.SRD,
+          description: "System reference document for Blades in the Dark",
+          license: License.CC_BY_3,
+          footer:
+            "The contents of the SRD are available for use under the Creative Commons Attribution 3.0 license (CC BY 3.0). Blades in the Dark™ is a trademark of One Seven Design. The Forged in the Dark Logo is © One Seven Design, and is used with permission.",
+          tags: ["blades", "srd"],
+          image: "https://bladesinthedark.com/sites/default/files/inline-images/forged_in_the_dark_logo2_0.png",
+          links: {
+            itchIo: "https://johnharper.itch.io/blades-in-the-dark",
+          },
+        },
+      ],
+    },
+    {
       name: "Fari RPGs",
       slug: "fari-rpgs",
       links: {
@@ -52,17 +75,18 @@ export const shop: IShop = {
       },
       products: [
         {
-          name: "Charge RPG",
-          slug: "charge-rpg",
-          type: ProductTypeEnum.Game,
-          description: "Ready to use generic RPG system.",
+          name: "Charge SRD",
+          slug: "charge-srd",
+          type: ProductTypeEnum.SRD,
+          description:
+            "Power your next game with this condensed version of Charge RPG",
           license: License.CC_BY_4,
           footer:
             "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
-          tags: ["charge-rpg", "game"],
-          image: "https://gyazo.com/db461bac8eda79fa13f2b81dc03272e3.png",
+          tags: ["charge-rpg", "srd"],
+          image: "https://gyazo.com/a6eabc2383f01fa9e30be8c1d64596f2.png",
           links: {
-            itchIo: "https://fari-rpgs.itch.io/charge-rpg",
+            itchIo: "https://fari-rpgs.itch.io/charge-srd",
           },
         },
       ],

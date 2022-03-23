@@ -137,7 +137,7 @@ export function ProductPage() {
                     color="secondary"
                     target="_blank"
                     rel="noreferrer"
-                    href={`https://github.com/fariapp/fari-games/tree/main/public/documents/${authorSlug}/${gameSlug}.md#:~:text=${chapter?.currentChapter.originalText}`}
+                    href={`https://github.com/V-Gira/Singularity/tree/master/public/documents/${authorSlug}/${gameSlug}.md#:~:text=${chapter?.currentChapter.originalText}`}
                   >
                     Edit this Page
                   </Button>
