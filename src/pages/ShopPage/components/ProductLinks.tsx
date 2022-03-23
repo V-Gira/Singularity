@@ -6,10 +6,6 @@ import Grid from "@mui/material/Grid";
 import React from "react";
 import { IShopProductWithAuthor } from "../../../../data/shop/types/IShopProduct";
 import { ItchIcon } from "../../../icons/ItchIcon";
-import {
-  driveThruRpgAffiliateCode,
-  itchIoAffiliateCode,
-} from "../configs/games";
 
 export function ProductLinks(props: {
   product: IShopProductWithAuthor | undefined;
@@ -27,11 +23,7 @@ export function ProductLinks(props: {
             variant="outlined"
             size="small"
             component={"a"}
-            href={
-              props.product.affiliate
-                ? props.product.links.itchIo + itchIoAffiliateCode
-                : props.product.links.itchIo
-            }
+            href={props.product.links.itchIo}
             target="_blank"
             className={css({
               textTransform: "none",
@@ -50,11 +42,7 @@ export function ProductLinks(props: {
             variant="outlined"
             size="small"
             component={"a"}
-            href={
-              props.product.affiliate
-                ? props.product.links.driveThru + driveThruRpgAffiliateCode
-                : props.product.links.driveThru
-            }
+            href={props.product.links.driveThru}
             target="_blank"
             className={css({
               textTransform: "none",
