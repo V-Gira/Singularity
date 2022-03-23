@@ -57,9 +57,9 @@ function App() {
         <StyledEngineProvider injectFirst>
           <ThemeProvider
             theme={
-              settingsManager.state.themeMode === "dark"
-                ? darkTheme
-                : lightTheme
+              settingsManager.state.themeMode === "light"
+                ? lightTheme
+                : darkTheme
             }
           >
             <CssBaseline />
