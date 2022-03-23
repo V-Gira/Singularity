@@ -27,7 +27,6 @@ import React, { useContext, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { ReactRouterLink } from "./components/ReactRouterLink/ReactRouterLink";
 import { SettingsContext } from "./contexts/SettingsContext";
-import { track } from "./domains/analytics/track";
 import { useTranslate } from "./hooks/useTranslate/useTranslate";
 import {
   IPossibleLanguages,
@@ -160,9 +159,6 @@ export function Navbar() {
                   className={css({ color: "inherit" })}
                   onClick={() => {
                     settingsManager.actions.setThemeMode(undefined);
-                    track("update_theme", {
-                      mode: "system",
-                    });
                   }}
                 >
                   <>
@@ -189,9 +185,6 @@ export function Navbar() {
                       ? "light"
                       : "dark";
                   settingsManager.actions.setThemeMode(newThemeMode);
-                  track("update_theme", {
-                    mode: newThemeMode,
-                  });
                 }}
               >
                 <>

@@ -5,7 +5,6 @@ import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import React from "react";
 import { IShopProductWithAuthor } from "../../../../data/shop/types/IShopProduct";
-import { track } from "../../../domains/analytics/track";
 import { ItchIcon } from "../../../icons/ItchIcon";
 import {
   driveThruRpgAffiliateCode,
@@ -34,11 +33,6 @@ export function ProductLinks(props: {
                 : props.product.links.itchIo
             }
             target="_blank"
-            onClick={() => {
-              track("buy_itch", {
-                game: props.product?.slug,
-              });
-            }}
             className={css({
               textTransform: "none",
             })}
@@ -62,11 +56,6 @@ export function ProductLinks(props: {
                 : props.product.links.driveThru
             }
             target="_blank"
-            onClick={() => {
-              track("buy_drivethrurpg", {
-                game: props.product?.slug,
-              });
-            }}
             className={css({
               textTransform: "none",
             })}
@@ -86,11 +75,6 @@ export function ProductLinks(props: {
             component={"a"}
             href={props.product.author.links.website}
             target="_blank"
-            onClick={() => {
-              track("buy_website", {
-                game: props.product?.slug,
-              });
-            }}
             className={css({
               textTransform: "none",
             })}
@@ -109,11 +93,6 @@ export function ProductLinks(props: {
             component={"a"}
             href={props.product.author.links.twitter}
             target="_blank"
-            onClick={() => {
-              track("follow_twitter", {
-                game: props.product?.slug,
-              });
-            }}
             className={css({
               textTransform: "none",
             })}

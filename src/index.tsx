@@ -17,7 +17,6 @@ import { ErrorBoundary } from "./components/ErrorBoundary/ErrorBoundary";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { SettingsContext, useSettings } from "./contexts/SettingsContext";
 import { Navbar } from "./Navbar";
-import { SentryService } from "./services/SentryService";
 import { darkTheme, lightTheme } from "./theme";
 import { getDefaultInjections } from "./services/injections";
 import { InjectionsContext } from "./contexts/InjectionsContext"
@@ -149,8 +148,6 @@ function App() {
     );
   }
 }
-
-SentryService.init();
 
 ReactDom.render(
   <AppProviders>

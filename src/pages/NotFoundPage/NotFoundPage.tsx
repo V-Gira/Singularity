@@ -1,17 +1,8 @@
 import Typography from "@mui/material/Typography";
-import React, { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import React from "react";
 import { Page } from "../../components/Page/Page";
-import { track } from "../../domains/analytics/track";
 
 export function NotFoundPage() {
-  const location = useLocation();
-
-  useEffect(() => {
-    track("not_found", {
-      path: location.pathname,
-    });
-  }, []);
 
   return (
     <Page

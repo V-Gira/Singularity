@@ -24,7 +24,6 @@ import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { useHistory, useLocation } from "react-router-dom";
 import { Delays } from "../../constants/delays";
-import { track } from "../../domains/analytics/track";
 import {
   IChapter,
   ISearchIndex,
@@ -403,11 +402,6 @@ export function Document(props: {
               setAutocompleteOpen(false);
               history.push(props.makeChapterLink(path));
               setMobileTocMenuOpen(false);
-              track("search", {
-                search_term: search,
-                game: props.slug,
-                index: path,
-              });
             }
           }}
           onInputChange={(e, value, reason) => {
@@ -425,11 +419,6 @@ export function Document(props: {
                   setAutocompleteOpen(false);
                   history.push(props.makeChapterLink(index.path));
                   setMobileTocMenuOpen(false);
-                  track("search", {
-                    search_term: search,
-                    game: props.slug,
-                    index: index.path,
-                  });
                 }}
               >
                 <Box pl=".5rem" width="100%">
@@ -673,12 +662,6 @@ export function Document(props: {
                   textDecoration: "none",
                   textAlign: "left",
                 })}
-                onClick={() => {
-                  track("go_to_previous", {
-                    game: props.slug,
-                    index: chapter.previousChapter?.id,
-                  });
-                }}
               >
                 <Button color="inherit">
                   « {chapter.previousChapter?.text}
@@ -702,12 +685,6 @@ export function Document(props: {
                   textDecoration: "none",
                   textAlign: "right",
                 })}
-                onClick={() => {
-                  track("go_to_next", {
-                    game: props.slug,
-                    index: chapter.nextChapter?.id,
-                  });
-                }}
               >
                 <Button color="inherit">{chapter.nextChapter?.text} »</Button>
               </ReactRouterLink>
@@ -738,12 +715,6 @@ export function Document(props: {
                   textDecoration: "none",
                   height: "100%",
                 })}
-                onClick={() => {
-                  track("go_to_previous", {
-                    game: props.slug,
-                    index: chapter.previousChapter?.id,
-                  });
-                }}
               >
                 <Button
                   fullWidth
@@ -789,12 +760,6 @@ export function Document(props: {
                   textDecoration: "none",
                   height: "100%",
                 })}
-                onClick={() => {
-                  track("go_to_next", {
-                    game: props.slug,
-                    index: chapter.nextChapter?.id,
-                  });
-                }}
               >
                 <Button
                   fullWidth
