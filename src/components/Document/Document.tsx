@@ -221,10 +221,21 @@ export function Document(props: {
           className={css({
             background: theme.palette.background.paper,
             boxShadow: theme.shadows[1],
-            maxHeight: "calc(100vh)",
+            maxHeight: "calc(80vh)",
             position: "sticky",
             top: "0px",
             overflowY: "auto",
+            '&::-webkit-scrollbar': {
+              width: '0.4em'
+            },
+            '&::-webkit-scrollbar-track': {
+              boxShadow: 'inset 0 0 6px rgba(0,0,0,0.00)',
+              webkitBoxShadow: 'inset 0 0 6px rgba(0,0,0,0.00)'
+            },
+            '&::-webkit-scrollbar-thumb': {
+              backgroundColor: 'rgba(0,0,0,.1)',
+              outline: '1px solid slategrey'
+            }
           })}
         >
           {props.renderSideBarHeader?.()}

@@ -40,3 +40,19 @@ Dans le monde de cette campagne, l'URSS au 21ème siècle est plus forte que jam
 - Malgré le fait que le Parti Communiste demeure la seule force politique, une série de réformes misent en place à partir des années 90 introduisent un procédé démocratique. Les représentatifs locaux sont élus par vote populaire et le principe de démocratie directe est utilisé fréquemment pour décider de questions morales et sociales.
 
 ## Occident et Capitalisme
+
+Le capitalisme est l'idéologie dominante du monde occidental, basé sur la propriété individuelle, elle repose sur un équilibre fragile entre liberté et docilité. Comment cet équilibre ce présente-t-il ?
+
+- Bien que les citoyens profitent de vastes libertés individuelle, le niveau d'inégalité est à son pique, entraîné par un système capitalisme sans régulation. Les aides sociales sont considérés comme une propagande communiste. Les personnes démunies vivent à un niveau de précarité historique et pour la première fois depuis des décennies, l'émigration vers les pays du bloc de l'est a augmenté.
+
+- Les marchés mondiaux ont encouragés la monté au pouvoir de conglomérats gigantesques qui dominent l'économie de nations entières et contrôlent leurs gouvernements. Les plus puissantes compagnies font parties du complexe militaro-industriel qui prospère dans le climat paranoïaque de la guerre froide.
+
+## Information et communication
+
+Les avancées du monde moderne ont été définies par la révolution des technologies de l'information et des communications. À quoi ressemble un monde définit par l'opposition entre deux blocs en compétition totale dans le contexte technologique du 21ème siècle?
+
+- L'Union Soviétique a développé son propre système de communication global, Mir. Internet et celui-ci était complètement isolés jusqu'au milieu des années 2000, les occidentaux ne voyant en Mir qu'un outil de propagande socialiste et les citoyens du bloc Communiste n'ayant accès à Internet qu'après des réformes d'ouverture en 2003.
+
+- Le développement de matériel et gadgets informatiques voit naître un nouveau paradigme entre les deux blocs : la technologie Soviétique ne suit pas la course à la finesse, aux lignes esthétiques et l'adoption d'écran tactiles des appareils occidentaux, préférant les claviers mécaniques, boutons et lignes industrielles.
+
+- Aux même titre, le développement logiciel occidental se concentre entièrement sur le web et les téléphones portables, toutes les applications accessible directement depuis un navigateur Internet, alors que la philosophie Soviétique se rapproche de celle d'Unix où chaque logiciel a une utilisation unique, avec une dédication particulière sur la productivité.
