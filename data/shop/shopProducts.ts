@@ -39,6 +39,30 @@ export const shop: IShop = {
           tags: ["singularity", "flashpoint"],
           image: "https://cdn.pixabay.com/photo/2021/10/30/00/06/television-tower-6753284_960_720.jpg",
           links: {
+            itchIo: "https://soliver.itch.io/minutes-to-midnight",
+          },
+        },
+      ],
+    },
+    {
+      name: "Oliver Smock",
+      slug: "mtm",
+      links: {
+        twitter: "https://twitter.com/oli_writes",
+      },
+      products: [
+        {
+          name: "Minutes to Midnight Playbooks",
+          slug: "playbooks",
+          type: ProductTypeEnum.Resource,
+          description: "Création de personnages pour Minutes to Midnight",
+          license: License.Copyright_Oliver_Smock,
+          footer:
+            "The content of the Playbooks is Copyright © 2021 Oliver Smock, and the translation by V-Jira is published with permission.",
+          tags: ["mtm", "resources", "intro"],
+          image: "https://cdn.pixabay.com/photo/2017/07/23/14/01/pocket-watch-2531472_960_720.png",
+          links: {
+            itchIo: "https://soliver.itch.io/minutes-to-midnight",
           },
         },
       ],

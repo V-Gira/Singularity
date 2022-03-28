@@ -52,4 +52,5 @@ export type IShopProductWithAuthor = IShopProduct & {
 export enum License {
   CC_BY_3 = "CC BY 3.0",
   CC_BY_4 = "CC BY 4.0",
+  Copyright_Oliver_Smock = "© Oliver Smock"
 }
