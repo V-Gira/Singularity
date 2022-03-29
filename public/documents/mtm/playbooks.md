@@ -310,7 +310,7 @@ Si la question se pose de savoir qui agit en premier, la réponse est toujours v
 
 ---
 
-### Intérogateur
+### Interrogateur
 
 Vous savez toujours quand quelqu'un vous ment. Quand vous utilisez Commandement sur une cible apeurée, jetez +1d
 
