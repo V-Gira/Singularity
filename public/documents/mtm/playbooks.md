@@ -21,7 +21,7 @@ Un arnaqueur fin et charmeur, continuant la tradition romantique de l'art de l'e
 
 ### XP
 
-Vous gagnez de l'expérience quand vous addressez un défi avec charme ou tromperie.
+Vous gagnez de l'expérience quand vous adressez un défi avec charme ou tromperie.
 
 ---
 
@@ -115,13 +115,13 @@ _Armes dissimulées | Camouflage programmable | Armuré | Compartement secret_
 
 # Le Pardessus | Le Pardessus
 
-Un traffiquant connecté à son milieu et plein de ressources.
+Un trafiquant connecté à son milieu et plein de ressources.
 
 ---
 
 ### XP
 
-Vous gagnez de l'expérience quand vous addressez un défi avec empathie ou en redirigeant l'attention.
+Vous gagnez de l'expérience quand vous adressez un défi avec empathie ou en redirigeant l'attention.
 
 ---
 
@@ -211,3 +211,103 @@ Quand vous aidez un allié, ou vous engagez dans une action de groupe, ils peuve
 ### Pari De La Tour
 
 Cochez 2 stress et employez le même nombre de dés que votre meilleure actions pour effectuer une action différente. Expliquez comment vous adaptez vos compétences à cette utilisation particulière
+
+# Le Col-roulé | Le Col-roulé
+
+Un tueur à gages professionnel et silencieux.
+
+---
+
+### XP
+
+Vous gagnez de l'expérience quand vous adressez un défi avec précision ou furtivité.
+
+---
+
+### Actions
+
+Vous commencez avec 2 points en Surveillance et 1 point en Finesse.
+
+---
+
+### Intel et équipement spécial
+
+Vous commencez avec 2 articles d'**intel** unique :
+
+- Plan de fuite impeccable
+- Cachette impeccable
+
+Vous commencez également avec 5 articles **d'équipement** spécial :
+
+- Arme de précision de qualité
+- Arme inhabituelle de qualité
+- Kit de crochetage de qualité
+- Combinaison furtive
+- Poison de qualité
+
+---
+
+### Contacts
+
+Vous commencez le jeu avec les **contacts** suivants :
+
+- Fischer, un dévoyé
+- Anna, une expérimentation
+- Kraschev, un artiste
+- Mouduma, un marchand
+- Nikita, un tueur
+
+---
+
+# Talents | Le Col-roulé
+
+Vous pouvez choisir un des talents suivants :
+
+---
+
+### Assassin
+
+Vous pouvez vous dépasser pour accomplir une des actions suivantes :
+effectuer un tir à une distance extrême | faire passer un meurtre pour un accident
+
+---
+
+### Spectre
+
+Vous pouvez utiliser votre armure spéciale pour résister aux conséquences d'être soumis a des mesures de sécurité ou d'être détecté, ou encore pour disparaître dans la foule
+
+---
+
+### Réflexes
+
+Si la question se pose de savoir qui agit en premier, la réponse est toujours vous. Quand vous sortez d'une position dissimulée pour attaquer, jetez +1d
+
+---
+
+### Intérogateur
+
+Vous savez toujours quand quelqu'un vous ment. Quand vous utilisez Commandement sur une cible apeurée, jetez +1d
+
+---
+
+### Vipère
+
+Quand vous fabriquez, obtenez ou appliquez un poison, jetez +1d
+
+---
+
+### Oeil aiguisé
+
+Quand vous essayez d'anticiper les menaces possible à un moment donné, vos points d'intel dépensés gagnent +1 effet
+
+---
+
+### Chacal
+
+Quand vous utilisez Surveillance, vous pouvez utiliser de l'intel pour vous dépasser
+
+---
+
+### Endoctriné
+
+Vous jetez +1d pour résister aux conséquences pouvant vous blesser. Ajoutez un secret d'obligation ou de fanatisme supplémentaire sur votre fiche de personnage
