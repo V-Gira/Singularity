@@ -31,4 +31,8 @@ Berlin Ouest demeure une enclave coupée du reste du monde, comment se définit 
 
 - Misant sur sa proximité avec le monde occidental, position idéale pour exemplifier les idéaux socialistes, la RDA donne à Berlin le statut de Wissenschaftsstadt : ville de science et d'innovation. La ville est à la pointe des recherches technologiques du bloc soviétique et une des capitales mondiale du développement logiciel. Le Konglomerat KMS, développeurs du système d'exploitation WEGA, sont basés à Berlin depuis 1978.
 
-- Une série de scandales a menée à la dissolution de la Stasi à la fin des années 90. Renommé sobrement Komitee des Staatsgeheimdienstes, le KSG essaie avec peu de succès de se défaire de la réputation sulfureuse de son prédécesseur, employant des méthodes moins pernicieuses mais tout aussi efficaces pour ses opérations de surveillance interne et en se concentrant beaucoup plus sur leurs efforts en dehors des frontières de l'Allemagne de l'Est.
+- Une série de scandales a menée à la dissolution de la Stasi à la fin des années 90. Renommé sobrement Komitee des Staatsgeheimdienstes, le KSG essaie avec peu de succès de se défaire de la réputation sulfureuse de son prédécesseur, employant des méthodes moins pernicieuses mais tout aussi efficaces pour ses opérations de surveillance interne et se concentrant beaucoup plus sur leurs efforts en dehors des frontières de l'Allemagne de l'Est.
+
+## Le mur
+
+Le mur de Berlin est une paroi de béton de 45 km de long qui en-capsule Berlin Ouest. Aujourd'hui, le mur est quasiment relégué à de l'histoire ancienne, un agrément de passage libre ayant été mis en place par les deux nations Allemandes. Des contrôles existent mais la sécurité est laxiste des deux côtés, faisant de Berlin le lieu idéal pour un espion de franchir le rideau de fer.
